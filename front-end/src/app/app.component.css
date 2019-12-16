@@ -1,0 +1,12 @@
+.Innerloader{
+    position: fixed;
+     left: 35%;
+     top: 30%;
+     width: 50%;
+     height: 50%;
+     z-index: 9999;
+     background: url('../assets/images/fluid-loader.gif') 50% 50% no-repeat;
+   }
+
+
+ 

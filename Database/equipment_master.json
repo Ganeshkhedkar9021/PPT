@@ -1,0 +1,19 @@
+{ 
+    "_id" : ObjectId("5c8b8760191c9b4e18728eb5"), 
+    "equipment_name" : "fsddf", 
+    "manufacture_name" : "fdsasfd", 
+    "model_name" : "fsadf", 
+    "rented_date" : "2019-03-08", 
+    "release_date" : "", 
+    "rent_per_day" : 12.5, 
+    "dp_size" : null, 
+    "weight" : null, 
+    "grade" : null, 
+    "tool_jt_od" : null, 
+    "type" : null, 
+    "string_no" : null, 
+    "pump_no" : null, 
+    "pump_manufacturer" : null, 
+    "stroke_length" : null, 
+    "liner" : null
+}

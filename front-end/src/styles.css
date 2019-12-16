@@ -1,0 +1,224 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import url("//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* @import url("//use.fontawesome.com/releases/v5.5.0/css/all.css"); */
+@import "assets/css/style.css";
+@import "assets/css/custom-icons.css";
+@import "assets/css/admin/sb-admin-2.min.css"; 
+@import "assets/vendor/fontawesome-free/css/all.min.css"; 
+@import "assets/vendor/datatables/dataTables.bootstrap4.min.css";
+.card{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: .85rem;
+}
+.bg-light-custom {
+    background-color: #F0F1F6 !important;
+}
+.pt-6 {
+    padding-top: 2.2rem !important; 
+}
+.pb-6 { 
+    padding-bottom: 2.2rem  !important;
+}
+.border-radius-50 {
+    border-radius: 25px !important;
+}
+.bg-custom, .bg-primary, .btn-primary {
+    background-color:#0081CC !important;
+}
+.fa-colorRed{
+    color: red;
+}
+.zoom-icon:hover{
+transform: scale(1.2);
+}
+.pointer {cursor: pointer;}
+.custom-shadow {
+    box-shadow: 2px 1px 3px rgba(102, 102, 102, 0.25);
+    -moz-box-shadow: 2px 1px 3px rgba(102, 102, 102, 0.25);
+    -webkit-box-shadow: 2px 1px 3px rgba(102, 102, 102, 0.25);
+}
+.sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after {
+    color: rgba(0, 0, 0, 0.5);
+}
+#content-wrapper {
+    z-index: 1;
+}
+#accordionSidebar {
+    z-index: 2;
+}
+.card-header {
+    background-color: #F8F9FC !important;
+    border: 0;
+}
+.table .thead-light th {
+    color: #495057;
+    background-color: #F5F5F5 !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #f8f9fc !important;
+}
+
+footer {
+    -webkit-box-shadow: 1px -10px 22px -9px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: 1px -10px 22px -9px rgba(0, 0, 0, 0.25);
+box-shadow: 1px -10px 22px -9px rgba(0, 0, 0, 0.25);
+}
+.steps-indicator {
+    display: none !important;
+}
+
+#wrapper #content-wrapper #content {
+    padding-bottom: 50px;
+}
+.modal-backdrop.show {
+    z-index: 0;
+}
+body.modal-open #accordionSidebar {
+    z-index: 1;
+}
+
+.wizard-steps a::before { 
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 41px solid transparent;
+    border-bottom: 41px solid transparent;
+    border-left: 28px solid #ccc;
+    position: absolute;
+    top: 29%;
+    margin-top: -24px;
+    margin-left: 0px;
+    left: 100%;
+    z-index: 1;
+}
+.wizard-steps a::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 41px solid transparent;
+    border-bottom: 41px solid transparent;
+    border-left: 28px solid #fff;
+    position: absolute;
+    top: 29%;
+    margin-top: -24px;
+    left: 100%;
+    z-index: 2;
+}
+.wizard-container a{
+    pointer-events: none;
+}
+.active a::before{
+    border-left: 28px solid #0f7bff;
+}
+.active a::after{
+    border-left: 28px solid #0f7bff;
+}
+.report-details .bg-light {
+    background-color: #e7ebef !important;
+}
+.report-details th {
+    font-weight: normal !important;
+}
+.tab-1-done {
+    background-color:#79b9ff !important;
+}
+.tab-1-done a::after{
+    border-left: 28px solid #79b9ff;
+}
+.tab-2-done a::after{
+    border-left: 28px solid #28a745 ;
+}
+.tab-3-done a::after{
+    border-left: 28px solid #dc3545;
+}
+.bg-success { 
+    transition-timing-function: linear; 
+    transition-property: bg-success;
+    transition-duration: 1s; 
+}
+.modal-open .modal {
+    background: rgba(0, 0, 0, 0.8);
+}
+.ngx-pagination {
+    margin-bottom: 0 !important;
+    float: right !important;
+} 
+.sidebar .nav-item .nav-link i {
+    font-size: x-large;
+}
+.pagination-next {
+    padding-right: 0px !important;
+}
+.sidebar .nav-item .nav-link[data-toggle=collapse].collapsed::after, .sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after { 
+    position: absolute;
+    right: 10px;
+}
+.btn-light:hover {
+    background: #fff !important;
+}
+.edit:hover i {
+    color: #28a745; 
+}
+.end:hover i, .delete:hover i  {
+    color:#dc3545; 
+}
+.sheet:hover i {
+    color:#ffc107; 
+}
+.view:hover i {
+    color:#007bff; 
+}
+li.active a span, li.active a i {
+    color:#007bff !important;
+}
+.badge {
+    font-size: 1rem !important;
+}
+.badge-danger {
+    background-color: #e8505f !important;
+}
+.badge-success {
+    background-color:#56b56b !important;
+}
+.btn-group .btn {
+    border-radius: 0.25rem !important;
+}
+.wizard-steps table {
+    table-layout: fixed;
+}
+.wizard-steps .bit-record-table table {
+    table-layout: auto;
+}
+.w-10 {
+    width: 10% !important;
+}
+@media (max-width: 767.98px) {  
+    table.table-bordered th, table.table-bordered td { 
+        white-space: nowrap;
+    } 
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wizard-container h5.mb-0{
+        font-size: 0.8rem
+    }
+    .wizard-container .fa-2x {
+        font-size: 2em;
+    }
+    .wizard-steps label {
+        font-size: .9rem;
+    }
+    
+}

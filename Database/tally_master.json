@@ -1,0 +1,26 @@
+{ 
+    "_id" : ObjectId("5c7f9586cf7fa14858972393"), 
+    "Trecords" : [
+        {
+            "record_description" : "trt", 
+            "tlength" : 29.893, 
+            "acc_ln" : 29.893
+        }, 
+        {
+            "record_description" : "3 1/2\" DP-1", 
+            "tlength" : NumberInt(34), 
+            "acc_ln" : "63.89", 
+            "string_weight" : "sas", 
+            "in" : "34", 
+            "out" : "sas", 
+            "comment" : "56565"
+        }
+    ], 
+    "rig_no" : ObjectId("5c63f1148d08211a205b36ce"), 
+    "tally_code" : "yuyu", 
+    "tally_name" : "uyu", 
+    "date" : "2019-01-01", 
+    "description" : "trt", 
+    "plength" : 29.893, 
+    "run_in_hole_date_time" : "2019-01-01T01:00"
+}

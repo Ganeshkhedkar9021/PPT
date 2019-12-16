@@ -1,0 +1,47 @@
+ 
+<div class="container h-100"> 
+  <div class="row h-100"> 
+    <div class="col-3 col-sm-1 pt-5">
+        <img  class="w-100" src="../../../assets/images/SWMS-live.PNG" />
+    </div>
+     
+    <div class="col-12 col-sm-4 offset-sm-1 d-flex h-100 align-items-center ">
+      <figure class="w-100">
+        <img  class="logo w-100" src="../../../assets/images/swms_logo.png" /><br/>
+      <h4 class="text-center text-primary font-weight-bold">DDR <span class="text-success">APP</span></h4>
+      </figure>
+      
+    </div>
+    <div class="col-12 col-sm-4 offset-sm-1 w-100 d-flex h-100 align-items-center ">
+       
+      <form id="Login" [formGroup]="loginForm"  (ngSubmit)="login()" class="w-100">
+        <h2 class="mb-5 font-weight-normal text-muted">Login</h2>
+        <div class="form-group">
+            <input type="text" class="form-control form-control-lg bg-light-custom border-0 border-radius-50 pt-6 pb-6 pl-4" name="username" [(ngModel)]="loginInfo.username" placeholder="Username" formControlName="username"  [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+            <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                <div *ngIf="f.username.errors.required">Please enter username</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control form-control-lg bg-light-custom border-0 border-radius-50 pt-6 pb-6 pl-4"  name="password" [(ngModel)]="loginInfo.password" placeholder="Password"  formControlName="password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                <div *ngIf="f.password.errors.required">Please enter password</div>
+            </div>
+        </div> 
+        <div class="form-group row mb-0  mt-5 align-items-center"> 
+          <!-- <div class="col-6">
+            <label class="mb-0"><a href="#" class="text-muted">Forgot Password</a></label>
+          </div> -->
+          <div class="col-6">
+              <button type="submit" class="btn bg-custom text-white w-100 btn-lg border-radius-50">Login</button>
+          </div>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+
+ 
+

@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("5c52b3a768a3f9391415c2d3"), 
+    "position_id" : ObjectId("5c5298ca6394413620f32ca0"), 
+    "member_name" : "Crew Member1", 
+    "employee_id" : "540", 
+    "crew_id" : ObjectId("5c580c1b1fdcc22414c64cf0")
+}

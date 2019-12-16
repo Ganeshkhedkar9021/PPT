@@ -1,0 +1,165 @@
+<div class="page-wrapper chiller-theme toggled">
+    <div id="show-sidebar" class="btn btn-sm btn-dark" >
+        <i class="fa fa-bars"></i>
+    </div>
+  <nav id="sidebar" class="sidebar-wrapper">
+      <div class="sidebar-content">
+          <div class="sidebar-brand">
+                <img class="img-responsive" src="../../../assets/images/swms_logo.png" height="40" width="200" alt="User picture">
+              <!-- <a href="#">SWMS</a> -->
+              <div id="close-sidebar">
+                  <i class="fa fa-times"></i>
+              </div>
+          </div>
+          <div class="sidebar-header">
+              <div class="user-pic">
+                  <img class="img-responsive img-rounded" src="assets/images/person.png" alt="User picture">
+              </div>
+              <div class="user-info">
+                  <span class="user-name">
+                      <strong>{{userInfo.first_name}} {{userInfo.last_name}}</strong>
+                  </span>
+                  <span class="user-role">{{ (userInfo.role==1)?'Administrator':'User'}}</span>
+                  <!-- <span class="user-status">
+                      <i class="fa fa-circle"></i>
+                      <span>Online</span>
+                  </span> -->
+              </div>
+          </div>
+          <!-- sidebar-header  -->
+          <!-- <div class="sidebar-search">
+              <div>
+                  <div class="input-group">
+                      <input type="text" class="form-control search-menu" placeholder="Search...">
+                      <div class="input-group-append">
+                          <span class="input-group-text">
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+          <!-- sidebar-search  -->
+          <div class="sidebar-menu">
+              <ul>
+                  <!-- <li class="header-menu">
+                      <span>General</span>
+                  </li>
+                  <li class="sidebar-dropdown">
+                      <a [routerLink]="['/ddrswms']" routerLinkActive="active" >
+                          <i class="fa fa-tachometer"></i>
+                          <span>Dashboard</span>
+                          <span class="badge badge-pill badge-danger">New</span>
+                      </a>
+                  </li> -->
+                    <li class="sidebar-dropdown">
+                        <a  [routerLink]="['dailyreports/reports']" routerLinkActive="active" >
+                            <i class="fa fa-table"></i>
+                            <span>Daily Reports </span>
+                            <!-- <span class="badge badge-pill badge-primary">3</span> -->
+                        </a>
+                    </li>
+                    <li class="sidebar-dropdown"> 
+                    </li>
+                    <li class="sidebar-dropdown">
+                        <a [routerLink]="['/ddrswms/wells']" routerLinkActive="active" >
+                            <i class="fa fa-tachometer"></i>
+                            <span>Wells</span>
+                        </a>
+                    </li>
+
+             
+                    <li class="sidebar-dropdown">
+                        <a [routerLink]="['/ddrswms/tally-sheet']" routerLinkActive="active" >
+                            <i class="fa fa-tachometer"></i>
+                            <span>Tally Sheet</span>
+                        </a>
+                    </li>
+
+
+                    <ng-container *ngIf="userInfo.role==1">
+
+                     <li class="sidebar-dropdown">
+                      <a  href="javascript:void(0)" >
+                        <i class="fa fa-tachometer"></i>
+                          <span>Master Crews</span>
+                      </a>
+                      <div class="sidebar-submenu">
+                          <ul>
+                            <li>
+                                <a [routerLink]="['/ddrswms/crews-master']" routerLinkActive="active" >
+                                    <i class="fa fa-tachometer"></i>
+                                    <span>Crews</span>
+                                </a>
+                            </li>
+                              <li>
+                                    <a [routerLink]="['/ddrswms/crews']" routerLinkActive="active" >
+                                        <i class="fa fa-tachometer"></i>
+                                        <span>Crews Members</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a [routerLink]="['/ddrswms/positions']" routerLinkActive="active" >
+                                        <i class="fa fa-tachometer"></i>
+                                        <span>Positions</span>
+                                    </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </li>
+
+
+
+
+
+
+
+                    <li class="sidebar-dropdown">
+                        <a [routerLink]="['/ddrswms/operationcodes']" routerLinkActive="active" >
+                            <i class="fa fa-tachometer"></i>
+                            <span>Operation Codes</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-dropdown">
+                        <a [routerLink]="['/ddrswms/operationcomponents']" routerLinkActive="active" >
+                            <i class="fa fa-tachometer"></i>
+                            <span>Operation Components</span>
+                        </a>
+                    </li>
+                   
+
+                    </ng-container>
+              </ul>
+          </div>
+          <!-- sidebar-menu  -->
+      </div>
+      <!-- sidebar-content  -->
+      <div class="sidebar-footer">
+          <!-- <a href="#">
+              <i class="fa fa-bell"></i>
+              <span class="badge badge-pill badge-warning notification">3</span>
+          </a>
+          <a href="#">
+              <i class="fa fa-envelope"></i>
+              <span class="badge badge-pill badge-success notification">7</span>
+          </a>
+          <a href="#">
+              <i class="fa fa-cog"></i>
+              <span class="badge-sonar"></span>
+          </a> -->
+          <a (click)="logout()" href="#">
+              <i class="fa fa-power-off"></i>
+          </a>
+      </div>
+  </nav>
+  <!-- sidebar-wrapper  -->
+  <main class="page-content">
+      <div class="container-fluid">
+        <div class="Innerloader" [hidden]="!loading" ></div>
+        <div [hidden]="loading">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</main>
+<!-- page-content" -->
+</div>

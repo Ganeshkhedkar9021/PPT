@@ -1,0 +1,643 @@
+/* 1 */
+{
+    "_id" : ObjectId("5ca49e82a8d1632d686100ae"),
+    "GeneralInfo" : {
+        "_id" : "5c4ec94b8da0491774a495a1",
+        "lease" : "Moranbah ",
+        "well_no" : "Moranbah 194B",
+        "rig_no" : "SW3",
+        "operator" : "Arrow Energy Ltd.",
+        "contractor" : "Sirius Well Manufacturing Services Australia Pty Ltd.",
+        "well_date" : "2019-01-31T00:00:00.000Z",
+        "well_status" : 1,
+        "well_end_date" : "",
+        "spud_date" : "2019-01-30T00:00:00.000Z",
+        "final_remark" : "",
+        "report_date" : "2019-04-03",
+        "signature_of_contractor_rep" : "Signature Of Contractor Rep:",
+        "signature_of_operator_rep" : "ignature Of Operator Rep :"
+    },
+    "DayShifInfo" : {
+        "MudRecordInfo" : [ 
+            {
+                "Time" : "01:00",
+                "Weight" : 6,
+                "PressGradient" : 0.312,
+                "FunnelVis" : "6",
+                "PVYP" : "6",
+                "GelStrength" : "6",
+                "FluidLoss" : "6",
+                "PH" : "6",
+                "SandContent" : "6"
+            }, 
+            {
+                "Time" : "01:00",
+                "Weight" : 6,
+                "PressGradient" : 0.312,
+                "FunnelVis" : "6",
+                "PVYP" : "6",
+                "GelStrength" : "6",
+                "FluidLoss" : "6",
+                "PH" : "6",
+                "SandContent" : "6"
+            }, 
+            {
+                "Time" : "02:00",
+                "Weight" : 6,
+                "PressGradient" : 0.312,
+                "FunnelVis" : "6",
+                "PVYP" : "6",
+                "GelStrength" : "6",
+                "FluidLoss" : "6",
+                "PH" : "6",
+                "SandContent" : "6"
+            }
+        ],
+        "OperationInfo" : [ 
+            {
+                "InTime" : "00:00",
+                "OutTime" : "01:00",
+                "Hours" : 1,
+                "Code" : "12a. Run Casing ",
+                "Component" : "Tubing tong",
+                "Operation" : "7"
+            }
+        ],
+        "MemberInfo" : [ 
+            {
+                "crewName" : "Crew 4",
+                "MemInfo" : [ 
+                    {
+                        "_id" : "5c9df134e3d2f429506434e2",
+                        "position_id" : "5c5298ca6394413620f32ca0",
+                        "member_name" : "Ganesh Khedkar",
+                        "employee_id" : "540uu",
+                        "crew_id" : "5c580c6c1fdcc22414c64cf3",
+                        "position_name" : "DERRICKMAN",
+                        "crew_name" : "Crew 4",
+                        "is_injured" : 0,
+                        "from" : "00:00",
+                        "to" : "12:00",
+                        "hours" : "12"
+                    }
+                ]
+            }
+        ],
+        "MudChemicalInfo" : [ 
+            {
+                "MudType" : "xc",
+                "Amount" : 6
+            }
+        ],
+        "FluidTankInfo" : {
+            "H_Tank_Bbl" : 33,
+            "D_Tank_Bbl" : 3,
+            "H_Moon_Bbl" : 3
+        },
+        "ShiftWaterInfo" : {
+            "StartShift" : "3",
+            "EndShift" : "3",
+            "M3" : 3,
+            "Bbls" : "18.868"
+        },
+        "CuttingInfo" : {
+            "Inner" : "3",
+            "Outer" : "3",
+            "DullChar" : "3",
+            "Location" : "3",
+            "BrgSeal" : "3",
+            "Guage" : "3",
+            "OtherDull" : "3",
+            "Reason" : "3"
+        },
+        "RemarkInfo" : {
+            "Pstm" : "3",
+            "SafetyStats" : "3",
+            "FuleDip" : "3",
+            "Vinpection" : "3",
+            "Ftest" : "3",
+            "Accumulator" : "3",
+            "Tubular" : "3",
+            "HireEq" : "3"
+        },
+        "DrillAssInfo" : [ 
+            [ 
+                {
+                    "No" : 3,
+                    "Item" : "3.5\"HWDP",
+                    "Length" : 3
+                }
+            ], 
+            {
+                "BHATotal" : 3,
+                "StandDp" : 0,
+                "DPJoints" : "3",
+                "Total" : "3",
+                "WTString" : "3"
+            }
+        ],
+        "SummaryInfo" : {
+            "HoursWContr" : "6",
+            "HoursWOpr" : "6",
+            "HoursWithoutDP" : 6,
+            "HourStandby" : "6",
+            "TotalDaywork" : "6",
+            "NoDaysSpud" : 6,
+            "CumulativeRoating" : "6",
+            "DayMudCost" : "6",
+            "TotalMudCost" : 6
+        },
+        "BitRecordInfo" : [ 
+            {
+                "BitNo" : "5",
+                "Size" : "5",
+                "IADCCode" : "5",
+                "Manufacture" : "5",
+                "Type" : "5",
+                "SerialNo" : "5",
+                "Jets" : "5",
+                "TFA" : "5",
+                "WellBore" : "5",
+                "Branch" : "5",
+                "DepthIn" : "5",
+                "TotalDrilled" : 0,
+                "DepthOut" : "5",
+                "TotalHours" : 14
+            }, 
+            {
+                "BitNo" : "5",
+                "Size" : "5",
+                "IADCCode" : "5",
+                "Manufacture" : "5",
+                "Type" : "5",
+                "SerialNo" : "5",
+                "Jets" : "5",
+                "TFA" : "5",
+                "WellBore" : "5",
+                "Branch" : "5",
+                "DepthIn" : "5",
+                "TotalDrilled" : 0,
+                "DepthOut" : "5",
+                "TotalHours" : 3
+            }, 
+            {
+                "BitNo" : "5",
+                "Size" : "5",
+                "IADCCode" : "5",
+                "Manufacture" : "5",
+                "Type" : "5",
+                "SerialNo" : "5",
+                "Jets" : "5",
+                "TFA" : "5",
+                "WellBore" : "5",
+                "Branch" : "5",
+                "DepthIn" : "5",
+                "TotalDrilled" : 0,
+                "DepthOut" : "5",
+                "TotalHours" : 4
+            }
+        ],
+        "WellBoreInfo" : [ 
+            {
+                "WellBore" : 5,
+                "Branch" : 5,
+                "StartDepthMeter" : 5,
+                "EndDepthMeter" : 5,
+                "StartTime" : "01:00",
+                "FinishTime" : "15:00",
+                "DrillRamCore" : "rr",
+                "Formation" : "r",
+                "RotaryTableSpeed" : 5,
+                "WeightOnBit" : "r",
+                "PumpPressure" : "f",
+                "LinerSizeP1" : "f",
+                "LinerSizeP2" : "f",
+                "SMPP1" : 4,
+                "TotalPumpGmp" : 4,
+                "SMPP2" : 4
+            }, 
+            {
+                "WellBore" : 5,
+                "Branch" : 5,
+                "StartDepthMeter" : 5,
+                "EndDepthMeter" : 5,
+                "StartTime" : "01:00",
+                "FinishTime" : "04:00",
+                "SMPP1" : 4.8,
+                "LinerSizeP2" : "4",
+                "SMPP2" : 4,
+                "TotalPumpGmp" : 4,
+                "DrillRamCore" : "ii",
+                "Formation" : "it",
+                "RotaryTableSpeed" : 5,
+                "WeightOnBit" : "5",
+                "PumpPressure" : "5",
+                "LinerSizeP1" : "5"
+            }, 
+            {
+                "WellBore" : 5,
+                "Branch" : 5,
+                "StartDepthMeter" : 5,
+                "EndDepthMeter" : 5,
+                "StartTime" : "01:00",
+                "FinishTime" : "05:00",
+                "TotalPumpGmp" : 4,
+                "SMPP2" : 4,
+                "LinerSizeP2" : "4",
+                "SMPP1" : 4,
+                "LinerSizeP1" : "4",
+                "PumpPressure" : "4",
+                "WeightOnBit" : "4",
+                "RotaryTableSpeed" : 4,
+                "DrillRamCore" : "i",
+                "Formation" : "o"
+            }
+        ],
+        "DeviationRecordInfo" : [ 
+            {
+                "Depth1" : "2",
+                "Dev1" : "2",
+                "Dir1" : "2",
+                "TVD1" : "2",
+                "HorizDisp1" : "2",
+                "HorizDisp2" : "2",
+                "Depth2" : "2",
+                "Dev2" : "2",
+                "Dir2" : "2",
+                "TVD2" : "2",
+                "HorizDisp3" : "2",
+                "HorizDisp4" : "2",
+                "HorizDisp5" : "2"
+            }, 
+            {
+                "HorizDisp5" : "2",
+                "HorizDisp4" : "22",
+                "HorizDisp3" : "2",
+                "TVD2" : "2",
+                "Dir2" : "22",
+                "Dev2" : "2",
+                "Depth2" : "2",
+                "HorizDisp2" : "2",
+                "HorizDisp1" : "2",
+                "TVD1" : "2",
+                "Dir1" : "2",
+                "Dev1" : "2",
+                "Depth1" : "2"
+            }
+        ],
+        "CompletionInfo" : []
+    },
+    "NightShiftInfo" : {
+        "MudRecordInfo" : [ 
+            {
+                "Time" : "01:00",
+                "Weight" : 6,
+                "PressGradient" : 0.312,
+                "FunnelVis" : "6",
+                "PVYP" : "6",
+                "GelStrength" : "6",
+                "FluidLoss" : "6",
+                "PH" : "6",
+                "SandContent" : "6"
+            }, 
+            {
+                "Time" : "01:00",
+                "Weight" : 6,
+                "PressGradient" : 0.312,
+                "FunnelVis" : "6",
+                "PVYP" : "6",
+                "GelStrength" : "6",
+                "FluidLoss" : "6",
+                "PH" : "6",
+                "SandContent" : "6"
+            }, 
+            {
+                "Time" : "01:00",
+                "Weight" : 6,
+                "PressGradient" : 0.312,
+                "FunnelVis" : "6",
+                "PVYP" : "6",
+                "GelStrength" : "6",
+                "FluidLoss" : "6",
+                "PH" : "6",
+                "SandContent" : "6"
+            }
+        ],
+        "OperationInfo" : [ 
+            {
+                "InTime" : "00:00",
+                "OutTime" : "01:00",
+                "Hours" : 1,
+                "Code" : "12a. Run Casing ",
+                "Component" : "Tubing tong",
+                "Operation" : "555"
+            }
+        ],
+        "MemberInfo" : [ 
+            {
+                "crewName" : "Crew 4",
+                "MemInfo" : [ 
+                    {
+                        "_id" : "5c9df134e3d2f429506434e2",
+                        "position_id" : "5c5298ca6394413620f32ca0",
+                        "member_name" : "Ganesh Khedkar",
+                        "employee_id" : "540uu",
+                        "crew_id" : "5c580c6c1fdcc22414c64cf3",
+                        "position_name" : "DERRICKMAN",
+                        "crew_name" : "Crew 4",
+                        "is_injured" : 0,
+                        "from" : "00:00",
+                        "to" : "12:00",
+                        "hours" : "12"
+                    }
+                ]
+            }
+        ],
+        "MudChemicalInfo" : [ 
+            {
+                "MudType" : "hgh",
+                "Amount" : 4
+            }
+        ],
+        "FluidTankInfo" : {
+            "H_Tank_Bbl" : 5,
+            "D_Tank_Bbl" : 5,
+            "H_Moon_Bbl" : 5
+        },
+        "ShiftWaterInfo" : {
+            "StartShift" : "5",
+            "EndShift" : "5",
+            "M3" : 5,
+            "Bbls" : "31.447"
+        },
+        "CuttingInfo" : {
+            "Inner" : "5",
+            "BrgSeal" : "5",
+            "Guage" : "5",
+            "Outer" : "5",
+            "DullChar" : "5",
+            "OtherDull" : "5",
+            "Reason" : "5",
+            "Location" : "5"
+        },
+        "RemarkInfo" : {
+            "Pstm" : "5",
+            "SafetyStats" : "5",
+            "FuleDip" : "5",
+            "Tubular" : "5",
+            "Accumulator" : "5",
+            "Ftest" : "5",
+            "Vinpection" : "5",
+            "HireEq" : "5"
+        },
+        "DrillAssInfo" : [ 
+            [ 
+                {
+                    "No" : 5,
+                    "Item" : "NMDC",
+                    "Length" : 5
+                }
+            ], 
+            {
+                "BHATotal" : 5,
+                "StandDp" : 0,
+                "DPJoints" : "5",
+                "Total" : "5",
+                "WTString" : "5"
+            }
+        ],
+        "SummaryInfo" : {
+            "HoursWContr" : "6",
+            "HoursWOpr" : "6",
+            "HoursWithoutDP" : 6,
+            "HourStandby" : "6",
+            "TotalNightwork" : "6",
+            "NoDaysSpud" : 6,
+            "CumulativeRoating" : "6",
+            "NightMudCost" : "6",
+            "TotalMudCost" : 6
+        },
+        "BitRecordInfo" : [ 
+            {
+                "BitNo" : "6",
+                "Size" : "6",
+                "IADCCode" : "6",
+                "Manufacture" : "6",
+                "Type" : "6",
+                "SerialNo" : "6",
+                "Jets" : "6",
+                "TFA" : "6",
+                "WellBore" : "5",
+                "Branch" : "5",
+                "DepthIn" : "5",
+                "TotalDrilled" : 0,
+                "DepthOut" : "5",
+                "TotalHours" : 0
+            }, 
+            {
+                "BitNo" : "7",
+                "Size" : "7",
+                "IADCCode" : "7",
+                "Manufacture" : "7",
+                "Type" : "7",
+                "SerialNo" : "7",
+                "Jets" : "7",
+                "TFA" : "7",
+                "WellBore" : "6",
+                "Branch" : "6",
+                "DepthIn" : "6",
+                "TotalDrilled" : 0,
+                "DepthOut" : "6",
+                "TotalHours" : 0
+            }, 
+            {
+                "BitNo" : "8",
+                "Size" : "8",
+                "IADCCode" : "8",
+                "Manufacture" : "8",
+                "Type" : "8",
+                "SerialNo" : "8",
+                "Jets" : "8",
+                "TFA" : "8",
+                "WellBore" : "5",
+                "Branch" : "6",
+                "DepthIn" : "5",
+                "TotalDrilled" : 1,
+                "DepthOut" : "6",
+                "TotalHours" : 0
+            }
+        ],
+        "WellBoreInfo" : [ 
+            {
+                "WellBore" : 5,
+                "Branch" : 5,
+                "StartDepthMeter" : 5,
+                "EndDepthMeter" : 5,
+                "StartTime" : "01:00",
+                "FinishTime" : "01:00",
+                "DrillRamCore" : "g",
+                "Formation" : "r",
+                "RotaryTableSpeed" : 5,
+                "WeightOnBit" : "t",
+                "PumpPressure" : "h",
+                "LinerSizeP1" : "t",
+                "SMPP1" : 5,
+                "LinerSizeP2" : "5",
+                "SMPP2" : 5,
+                "TotalPumpGmp" : 5
+            }, 
+            {
+                "WellBore" : 6,
+                "Branch" : 6,
+                "StartDepthMeter" : 6,
+                "EndDepthMeter" : 6,
+                "StartTime" : "01:00",
+                "FinishTime" : "01:00",
+                "DrillRamCore" : "g",
+                "Formation" : "r",
+                "RotaryTableSpeed" : 5,
+                "WeightOnBit" : "t",
+                "PumpPressure" : "g",
+                "LinerSizeP1" : "t",
+                "SMPP1" : 5,
+                "LinerSizeP2" : "5",
+                "SMPP2" : 5,
+                "TotalPumpGmp" : 5
+            }, 
+            {
+                "WellBore" : 5,
+                "Branch" : 6,
+                "StartDepthMeter" : 5,
+                "EndDepthMeter" : 6,
+                "StartTime" : "01:00",
+                "FinishTime" : "01:00",
+                "DrillRamCore" : "g",
+                "Formation" : "r",
+                "RotaryTableSpeed" : 5,
+                "WeightOnBit" : "t",
+                "PumpPressure" : "g",
+                "LinerSizeP1" : "r",
+                "SMPP1" : 5,
+                "LinerSizeP2" : "5",
+                "SMPP2" : 5,
+                "TotalPumpGmp" : 5
+            }
+        ],
+        "DeviationRecordInfo" : [ 
+            {
+                "Depth1" : "5",
+                "Dev1" : "5",
+                "Dir1" : "5",
+                "TVD1" : "5",
+                "HorizDisp1" : "5",
+                "HorizDisp2" : "5",
+                "Depth2" : "5",
+                "Dev2" : "5",
+                "Dir2" : "5",
+                "TVD2" : "5",
+                "HorizDisp3" : "5",
+                "HorizDisp4" : "5",
+                "HorizDisp5" : "5"
+            }, 
+            {
+                "Depth1" : "6",
+                "Dev1" : "6",
+                "Dir1" : "6",
+                "TVD1" : "6",
+                "HorizDisp1" : "6",
+                "HorizDisp2" : "6",
+                "Depth2" : "6",
+                "Dev2" : "6",
+                "Dir2" : "6",
+                "TVD2" : "6",
+                "HorizDisp3" : "6",
+                "HorizDisp4" : "6",
+                "HorizDisp5" : "6"
+            }
+        ],
+        "CompletionInfo" : []
+    },
+    "ServicesInfo" : {
+        "ServicesInfo" : [ 
+            {
+                "_id" : "5c8b9bb63ae7b607e8e9caa4",
+                "equipment_name" : "eq1",
+                "manufacture_name" : "mn1",
+                "model_name" : "mo1",
+                "rented_date" : "2019-03-08",
+                "release_date" : "2019-03-13",
+                "rent_per_day" : 10,
+                "dp_size" : "gnhbvn",
+                "weight" : "bvn",
+                "grade" : "n",
+                "tool_jt_od" : "nbv",
+                "type" : "bn",
+                "string_no" : "nb",
+                "pump_no" : "nn",
+                "pump_manufacturer" : "n",
+                "stroke_length" : "bn",
+                "liner" : "nvb",
+                "total_rent" : 50
+            }
+        ],
+        "FieldInformation" : {
+            "FieldDistrict" : "rtrt",
+            "Country" : "trt",
+            "StateCountry" : "trt",
+            "WireLineRecord" : "trt"
+        },
+        "EquipmentsInfo" : [ 
+            {
+                "DPSize" : "trt",
+                "Weight" : 4,
+                "Grade" : "4",
+                "ToolJtOD" : "4",
+                "TypeTool" : "4",
+                "StringNo" : 4,
+                "PumpNo" : 4,
+                "TypeManufact" : "4",
+                "StrokeLength" : "4",
+                "Liner" : 4
+            }
+        ],
+        "LastCasting" : [ 
+            {
+                "Size" : "trt",
+                "Make" : "trt",
+                "Weightlbs" : "trt",
+                "Grade" : "trt",
+                "NoJoints" : "trt",
+                "Length" : "trt",
+                "RKBTOCSG" : "trt",
+                "SetAt" : "trt",
+                "Size2" : "trt",
+                "NoOfLine" : "trt",
+                "LengthSlipped" : "trt",
+                "LenghtCutOff" : "trt",
+                "PresentLength" : "trt",
+                "WereTripsChanged" : "trt",
+                "CamulativeWereLastRoated" : "tr"
+            }, 
+            {
+                "Size" : "trt",
+                "Make" : "trt",
+                "Weightlbs" : "trt",
+                "Grade" : "trt",
+                "NoJoints" : "trt",
+                "Length" : "trt",
+                "RKBTOCSG" : "trt"
+            }, 
+            {
+                "Size" : "trt",
+                "Make" : "trt",
+                "Weightlbs" : "trt",
+                "Grade" : "trt",
+                "NoJoints" : "tr",
+                "Length" : "trt",
+                "RKBTOCSG" : "trt"
+            }
+        ]
+    },
+    "isSynced" : false,
+    "isReportGenerated" : false
+}

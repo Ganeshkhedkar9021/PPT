@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* @import url("//use.fontawesome.com/releases/v5.5.0/css/all.css"); */
+@import "assets/css/style.css";
+<<<<<<< HEAD
+@import "assets/css/custom.css";
+=======
+@import "assets/css/admin/sb-admin-2.min.css"; 
+@import "assets/vendor/fontawesome-free/css/all.min.css"; 
+@import "assets/vendor/datatables/dataTables.bootstrap4.min.css";
+<<<<<<< HEAD
+>>>>>>> LocalDDR
+=======
+>>>>>>> updated UI
+>>>>>>> updated UI
+.card{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: .85rem;
+}
+.bg-custom, .bg-primary, .btn-primary {
+    background-color:#0081CC !important;
+}
+.fa-colorRed{
+    color: red;
+}
+.zoom-icon:hover{
+transform: scale(1.2);
+}
+.pointer {cursor: pointer;}
+<<<<<<< HEAD
+
+
+
+
+
+=======
+.custom-shadow {
+    box-shadow: 2px 1px 3px rgba(102, 102, 102, 0.25);
+    -moz-box-shadow: 2px 1px 3px rgba(102, 102, 102, 0.25);
+    -webkit-box-shadow: 2px 1px 3px rgba(102, 102, 102, 0.25);
+}
+.sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after {
+    color: rgba(0, 0, 0, 0.5);
+}
+#content-wrapper {
+    z-index: 1;
+}
+#accordionSidebar {
+    z-index: 2;
+}
+.card-header {
+    background-color: #F8F9FC !important;
+    border: 0;
+}
+.table .thead-light th {
+    color: #495057;
+    background-color: #F5F5F5 !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #f8f9fc !important;
+}
+
+footer {
+    -webkit-box-shadow: 1px -10px 22px -9px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: 1px -10px 22px -9px rgba(0, 0, 0, 0.25);
+box-shadow: 1px -10px 22px -9px rgba(0, 0, 0, 0.25);
+}
+.steps-indicator {
+    display: none !important;
+}
+<<<<<<< HEAD
+>>>>>>> LocalDDR
+=======
+>>>>>>> updated UI
+>>>>>>> updated UI

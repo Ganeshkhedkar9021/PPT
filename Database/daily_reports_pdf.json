@@ -1,0 +1,5 @@
+{ 
+    "_id" : ObjectId("5c90be47c2b57b08e4fccdc5"), 
+    "daily_report_id" : ObjectId("5c89f06aa4b92e2da4f7e5ac"), 
+    "pdf_name" : "SW3-2019-03-14-2019-03-19-15-32.pdf"
+}

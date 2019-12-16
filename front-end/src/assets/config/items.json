@@ -1,0 +1,17 @@
+var Items = {
+    'BIT':'BIT',
+    'DHM':'DHM',
+    'NMDC':'NMDC',
+    'FLEX NMDC':'FLEX NMDC',
+    '6 1/2"DC':'6 1/2"DC',
+    '4 3/4"DC':'4 3/4"DC',
+    '4.5"HWDP':'4.5"HWDP',
+    '3.5"HWDP':' 3.5"HWDP',
+    '4 1/2"PUP':'4 1/2"PUP',
+   
+};
+
+module.exports = Items;
+
+
+
