@@ -24,9 +24,9 @@ export class MastersService {
     let headers = this.setheaders();
     return this.http.get<Response>(`${this.ApiUrl}/wells`,{headers:headers});
   }
-  createWell(wellInfo){
+  createWell(pptInfo){
     let headers = this.setheaders();
-    return this.http.post<Response>(`${this.ApiUrl}/createwell`,wellInfo,{headers:headers});
+    return this.http.post<Response>(`${this.ApiUrl}/createwell`,pptInfo,{headers:headers});
   }
   getactivewell(){
     let headers = this.setheaders();

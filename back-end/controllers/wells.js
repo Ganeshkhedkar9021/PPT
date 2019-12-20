@@ -15,21 +15,17 @@ var database = require('../config/config');
             var requetData = req.body;
             console.log("Final Remark: " ,requetData.final_remark);
                 var wellData = {
-                    "lease":requetData.lease,
-                    "well_no":requetData.well_no,
-                    "rig_no":requetData.rig_no,
-                    "operator":requetData.operator,
-                    "contractor":requetData.contractor,
-                    "well_date":requetData.well_date,
-                    "spud_date":requetData.spud_date,
-                    "final_remark":requetData.final_remark
-                   
+                    "name":requetData.name,
+                    "ppt_image":requetData.ppt_image,
+                    "main_image":requetData.main_image,
+                    "thumb_image":requetData.thumb_image,
+                    "description":requetData.description, 
                 }
 
                 console.log("request Data if condition",requetData._id);
                 if(requetData._id=='undefined' || requetData._id==null){
                     console.log("inside if")
-                    wellData.well_status = 1;
+                    // wellData.well_status = 1;
                     //console.log(wellData)
                     dbo.collection('wells').insertOne(wellData,function(error,result){
                         if(error) throw error;

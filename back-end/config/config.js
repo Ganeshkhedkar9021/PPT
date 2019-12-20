@@ -1,9 +1,5 @@
 
 
-
-
-
-
 // module.exports = function(app,db){
 //     console.log("This is config file");
 //     var obj = {dataname:'swms-report'};

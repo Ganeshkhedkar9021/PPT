@@ -1,15 +1,15 @@
 <div *ngIf="!isView; else viewData">
   <!-- Page Heading -->
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-dark">Wells</h1>
+    <h1 class="h3 mb-0 text-dark">PPT</h1>
     <button class="d-none d-sm-inline-block btn btn-primary shadow-sm" [disabled]="isActiveWell"
       [routerLink]="['/ddrswms/create-well']" routerLinkActive="router-link-active"><i
-        class="fas fa-plus fa-sm text-white-50"></i> Start New Well</button>
+        class="fas fa-plus fa-sm text-white-50"></i> add new ppt</button>
   </div>
 
   <div class="card shadow mb-4">
     <div class="card-header p-3 d-flex align-items-center justify-content-between">
-      <h6 class="m-0 text-muted w-25 pull-left font-weight-normal">Well List</h6>
+      <h6 class="m-0 text-muted w-25 pull-left font-weight-normal">ppt List</h6>
       <div class="form-group float-right w-25 pull-right mb-0">
         <input placeholder="Search" type="text" class="form-control form-control-sm" [(ngModel)]="searchText" />
       </div>
@@ -20,13 +20,13 @@
           <thead class="thead-light">
 
             <tr>
-              <th>Well No</th>
-              <th>Contractor</th>
-              <th>RIG No</th>
-              <th>Status</th>
-              <th>Start Date</th>
-              <th>End Date</th>
-              <th>Actions</th>
+              <th>Name</th>
+              <th>PPT Image</th>
+              <th>Main_Image</th>
+              <th>Thumb_Image</th>
+              <th>Description</th>
+              <!-- <th>End Date</th>
+              <th>Actions</th> -->
               <!--<th width="10%">Well No</th>
               <th width="10%">Contractor</th>
               <th width="10%">RIG No</th>
@@ -34,19 +34,22 @@
               <th width="10%">Start Date</th>
               <th width="10%">End Date</th>
               <th width="15%">Actions</th> -->
+              <th width="15%">Actions</th>
             </tr>
           </thead>
           <tbody>
-            <ng-container *ngIf="Wells.length>0; else noData">
+            <ng-container *ngIf="ppts.length>0; else noData">
               <tr
-                *ngFor="let item of Wells|search:searchText:'well_no,contractor'|paginate: { itemsPerPage: pageSize, currentPage: p }">
-                <td>{{item.well_no}}</td>
-                <td>{{item.contractor}}</td>
-                <td>{{item.rig_no}}</td>
-                <td> <span appCheckstatus
+                *ngFor="let item of ppts|search:searchText:'name'|paginate: { itemsPerPage: pageSize, currentPage: p }">
+                <td>{{item.name}}</td>
+                <td> <img src= '{{item.ppt_image}}'> </td>
+                <td> <img src= '{{item.main_image}}'> </td>
+                <td> <img src= '{{item.thumb_image}}'> </td>
+                <td> {{item.description}} </td>
+                <!-- <td> <span appCheckstatus
                     status="{{item.well_status}}">{{(item.well_status==1)?'Started ':'Finished '}}</span></td>
                 <td>{{item.well_date|date}}</td>
-                <td>{{item.well_end_date|date}}</td>
+                <td>{{item.well_end_date|date}}</td> -->
                 <td>
                   <div class="btn-group">
                   <button type="button" data-toggle="tooltip" data-placement="top" title="Edit Well"
@@ -61,6 +64,9 @@
                   <button type="button" data-toggle="tooltip" data-placement="top" title="Well Details"
                     class="btn btn-light view pt-1 pb-1 pl-2 pr-2" (click)="viewWell(item)"><i
                       class="far fa-eye"></i></button>
+
+                      <button type="button" data-toggle="tooltip" data-placement="top" title="Delete" (click)="deletePpt()"
+                      class="btn btn-light edit mr-1 pt-1 pb-1 pl-2 pr-2"> <i class="fa fa-trash"></i></button>
                     </div>
                 </td>
               </tr>

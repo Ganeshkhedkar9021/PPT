@@ -21,7 +21,7 @@ export class WellsListComponent implements OnInit {
   submitted = false;
   modalTitle: string = "Remark";
   modalButtonTitle: string = "Add Remark";
-  Wells: any = [];
+  ppts: any = [];
   activeWell: any = [];
   isActiveWell: boolean = true;
   pageSize: number = 10;
@@ -63,7 +63,8 @@ export class WellsListComponent implements OnInit {
   getwells() {
     this.isView = false;
     this.masterservice.getwells().subscribe(data => {
-      this.Wells = data.result;
+      this.ppts = data.result;
+      console.log(" this.ppts",  this.ppts);
     },
       error => {
         console.log("well have errors");
@@ -108,6 +109,12 @@ export class WellsListComponent implements OnInit {
         console.log("well have errors");
       }
     )
+  }
+
+
+  deletePpt()
+  {
+    
   }
 
   viewWell(WellInfo) {

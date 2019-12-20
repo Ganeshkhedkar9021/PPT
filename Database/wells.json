@@ -1,13 +1,8 @@
 { 
     "_id" : ObjectId("5c4ec94b8da0491774a495a1"), 
-    "lease" : "Moranbah ", 
-    "well_no" : "Moranbah 194B", 
-    "rig_no" : "SW3", 
-    "operator" : "Arrow Energy Ltd.", 
-    "contractor" : "Sirius Well Manufacturing Services Australia Pty Ltd.", 
-    "well_date" : "2019-01-28T00:00:00.000Z", 
-    "well_status" : NumberInt(1), 
-    "well_end_date" : "", 
-    "spud_date" : "2019-01-28T00:00:00.000Z", 
-    "final_remark" : ""
+    "name" : "suresh ", 
+    "ppt_image" : "ppt image path", 
+    "main_image" : "main image path", 
+    "thumb_image" : "thumb image path", 
+    "description" : "description"
 }
